@@ -1,8 +1,8 @@
-# OpenClaw Skills
+# AgentSkill
 
-> OpenClaw Skills - 从零开发到 ClawHub 发布
+> AgentSkill - 面向 OpenClaw / Agent 工作流的 Skill 仓库
 
-🤖 **OpenClaw Skill 开发专家** - 专注 Skill 创造与 ClawHub 云端分发
+🤖 **Agent Skill 工具箱** - 专注可复用 Skill、Agent 工作流和 ClawHub 云端分发
 
 ---
 
@@ -19,6 +19,7 @@
 | **file-persistence-writer** | 1.0.0 | 持久化文件写入 | `clawhub install file-persistence-writer` |
 | **openclaw-mutual-repair** | 1.0.0 | 双 Agent 互修 | `clawhub install openclaw-mutual-repair` |
 | **web-reverse-debugger** | 1.0.0 | 网页逆向调试 | `clawhub install web-reverse-debugger` |
+| **openclaw-network-optimizer** | 1.0.0 | 网络诊断、Clash 代理、DNS 与 CLI 连通性优化 | `clawhub install openclaw-network-optimizer` |
 
 ---
 
@@ -64,8 +65,8 @@ claw skill list
 
 ```bash
 # 克隆仓库
-git clone https://github.com/rfdiosuao/openclaw-skills.git
-cd openclaw-skills
+git clone https://github.com/rfdiosuao/AgentSkill.git
+cd AgentSkill
 
 # 复制模板
 cp -r skill-template my-new-skill
@@ -105,7 +106,7 @@ my-skill/
 
 | 指标 | 目标值 | 当前值 |
 |------|--------|--------|
-| 新增 Skills | 2-4 个 | 9 个 ✅ |
+| 新增 Skills | 2-4 个 | 10 个 ✅ |
 | 发布成功率 | >99% | 100% ✅ |
 | 测试覆盖率 | >80% | 进行中 |
 | Issue 响应 | <24h | 进行中 |
@@ -163,7 +164,7 @@ npm update -g @openclaw/core
 
 ## 📞 支持
 
-- **GitHub Issues:** https://github.com/rfdiosuao/openclaw-skills/issues
+- **GitHub Issues:** https://github.com/rfdiosuao/AgentSkill/issues
 - **Discord:** https://discord.com/invite/clawd
 - **ClawHub 论坛:** https://clawhub.ai/forum
 
@@ -184,5 +185,5 @@ MIT License
 
 ---
 
-**最后更新：** 2026-03-14  
-**当前版本：** v2026.3.14
+**最后更新：** 2026-05-25  
+**当前版本：** v2026.5.25

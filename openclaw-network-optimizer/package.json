@@ -1,0 +1,30 @@
+{
+  "name": "openclaw-network-optimizer",
+  "version": "1.0.0",
+  "description": "Evidence-first network optimization workflow for Clash, DNS, proxy, and CLI connectivity.",
+  "author": "rfdiosuao",
+  "license": "MIT",
+  "keywords": [
+    "network",
+    "clash",
+    "mihomo",
+    "dns",
+    "proxy",
+    "openai",
+    "github"
+  ],
+  "category": "system-tools",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node tests/index.test.js",
+    "snapshot:windows": "powershell -ExecutionPolicy Bypass -File scripts/windows-network-snapshot.ps1 -ProxyPort 7897"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0"
+  }
+}

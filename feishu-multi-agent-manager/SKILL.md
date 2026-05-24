@@ -115,11 +115,11 @@ await main(ctx, { action: 'show_status' });
 
 ## 📚 完整文档
 
-查看 [GitHub README](https://github.com/rfdiosuao/openclaw-skills/blob/main/feishu-multi-agent-manager/README.md)
+查看 [GitHub README](https://github.com/rfdiosuao/AgentSkill/blob/main/feishu-multi-agent-manager/README.md)
 
 ## 🔗 相关链接
 
-- [GitHub 仓库](https://github.com/rfdiosuao/openclaw-skills)
+- [GitHub 仓库](https://github.com/rfdiosuao/AgentSkill)
 - [飞书云文档教程](https://www.feishu.cn/docx/PYlXdsZoEoPPDbxyBRWc9HpRnIe)
 - [OpenClaw 官方文档](https://docs.openclaw.ai)
 

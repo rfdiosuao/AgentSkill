@@ -3,7 +3,7 @@
 > **交互式引导版本** - 逐步指导用户创建多个飞书 Bot，配置多 Agent 系统
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/version-2.0.4-blue.svg)](https://github.com/rfdiosuao/openclaw-skills)
+[![Version](https://img.shields.io/badge/version-2.0.4-blue.svg)](https://github.com/rfdiosuao/AgentSkill)
 
 ---
 
@@ -11,8 +11,8 @@
 
 ```bash
 # 从 GitHub 克隆
-git clone https://github.com/rfdiosuao/openclaw-skills.git
-cd openclaw-skills/feishu-multi-agent-manager
+git clone https://github.com/rfdiosuao/AgentSkill.git
+cd AgentSkill/feishu-multi-agent-manager
 
 # 安装依赖
 npm install
@@ -673,7 +673,7 @@ MIT License
 - [OpenClaw 官方文档](https://docs.openclaw.ai)
 - [多 Agent 路由文档](https://clawd.org.cn/concepts/multi-agent.html)
 - [飞书开放平台](https://open.feishu.cn/)
-- [GitHub 仓库](https://github.com/rfdiosuao/openclaw-skills)
+- [GitHub 仓库](https://github.com/rfdiosuao/AgentSkill)
 - [ClawHub 技能市场](https://clawhub.ai)
 
 ---

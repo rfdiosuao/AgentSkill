@@ -1,0 +1,18 @@
+{
+  "name": "openclaw-network-optimizer",
+  "version": "1.0.0",
+  "description": "证据优先的网络优化助手，支持 Windows + Clash 7897、DNS A/B 测试、CLI 代理配置、WinHTTP 代理和可回滚网络修改流程。",
+  "author": "rfdiosuao",
+  "repository": "https://github.com/rfdiosuao/AgentSkill",
+  "license": "MIT",
+  "tags": ["network", "clash", "mihomo", "dns", "proxy", "openai", "github"],
+  "category": "系统工具",
+  "compatibility": {
+    "minOpenClawVersion": "2026.3.31",
+    "platforms": ["windows", "macos", "linux"]
+  },
+  "main": "dist/index.js",
+  "scripts": {
+    "snapshot:windows": "powershell -ExecutionPolicy Bypass -File scripts/windows-network-snapshot.ps1 -ProxyPort 7897"
+  }
+}
