@@ -1,0 +1,4 @@
+interface:
+  display_name: "优质仓库 README"
+  short_description: "为 GitHub 项目打造有品牌感、可验证、可发布的优质 README"
+  default_prompt: "使用 $craft-repository-readme 为这个仓库制作一份有 Logo、徽章、主视觉和完整链接的优质 README。"
