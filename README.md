@@ -6,6 +6,14 @@
 
 ---
 
+## ✨ Codex / Agent Skills
+
+| Skill 名称 | 版本 | 说明 | 使用方式 |
+|-----------|------|------|----------|
+| **[craft-repository-readme](craft-repository-readme/)** | 1.0.0 | 为 GitHub 项目打造有 Logo、徽章、主视觉、完整链接和发布校验的优质 README | 将目录复制到 `~/.codex/skills/`，在提示词中使用 `$craft-repository-readme` |
+
+这份 Skill 同时提供 README 版式参考与本地校验脚本，能够检查缺失资源、敏感凭据、占位符和关键视觉元素。
+
 ## 📦 已发布 Skills
 
 | Skill 名称 | 版本 | 说明 | 安装命令 |
