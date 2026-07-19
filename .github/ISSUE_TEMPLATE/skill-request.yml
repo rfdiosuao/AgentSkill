@@ -1,0 +1,46 @@
+name: Skill request
+description: 提议一个来自真实工作流的新 Skill 或现有 Skill 改进
+title: "[Skill request] "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请描述真实问题和完成标准。不要在 Issue 中粘贴密钥、Cookie 或内部配置。
+  - type: textarea
+    id: problem
+    attributes:
+      label: 真实问题
+      description: 谁在什么场景下遇到了什么问题？
+      placeholder: 我在……场景下，需要……，现在会遇到……
+    validations:
+      required: true
+  - type: textarea
+    id: input-output
+    attributes:
+      label: 输入与期望结果
+      description: 给出不含敏感数据的输入示例和可验收结果。
+    validations:
+      required: true
+  - type: textarea
+    id: current-workaround
+    attributes:
+      label: 当前做法
+      description: 现在如何处理？最耗时或最容易出错的环节是什么？
+  - type: textarea
+    id: boundaries
+    attributes:
+      label: 权限与边界
+      description: 是否涉及文件写入、网络访问、账号、凭据、系统配置或付费接口？
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 提交确认
+      options:
+        - label: 我没有在本 Issue 中提交任何密钥、Cookie 或真实凭据。
+          required: true
+        - label: 这个需求来自真实任务，不是只有一句话的概念。
+          required: true
