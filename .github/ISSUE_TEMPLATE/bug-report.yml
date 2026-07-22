@@ -1,0 +1,41 @@
+name: Bug 报告
+description: 报告 Skill、脚本、安装或文档中的可复现问题
+title: "[Bug] "
+labels: ["bug", "needs-triage"]
+body:
+  - type: input
+    id: skill
+    attributes:
+      label: 相关 Skill
+      placeholder: 例如：craft-repository-readme
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: 运行环境
+      placeholder: 例如：Codex / OpenClaw 2026.x / Windows 11
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      description: 请提供最小输入、执行命令和实际输出
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 预期结果
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 提交前确认
+      options:
+        - label: 我已搜索现有 Issue
+          required: true
+        - label: 我已删除密钥、Cookie、Token 和真实业务数据
+          required: true
