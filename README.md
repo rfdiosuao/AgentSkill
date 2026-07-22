@@ -1,3 +1,5 @@
+<p align="center"><strong>简体中文</strong> · <a href="README.en.md">English</a></p>
+
 <p align="center">
   <a href="https://clawhub.ai/rfdiosuao">
     <img src="docs/assets/agentskill-logo.png" width="132" alt="AgentSkill logo">
