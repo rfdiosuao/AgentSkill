@@ -97,6 +97,12 @@ openclaw skills install @rfdiosuao/feishu-multi-agent-manager
 | [`craft-repository-readme`](craft-repository-readme/) | README 审计、重写、品牌化和发布检查 | 事实核验、敏感信息检查、Logo/徽章/主视觉、校验器 |
 | [`feishu-multi-agent-manager`](feishu-multi-agent-manager/) | 交互式配置飞书多 Agent | v2.0.4 源码、角色模板、凭证验证、测试 |
 | [`openclaw-network-optimizer`](openclaw-network-optimizer/) | DNS、Clash、代理与 CLI 连通性诊断 | v1.0.0 源码、Windows 快照、可回滚修改流程 |
+| [`anatomy`](anatomy/) | 把抽象系统画成可信的物理装置：等距 SVG 技术图解 | 完整源码、可运行示例、校验脚本、WebGL 材质 |
+| [`heang-design`](heang-design/) | 宇航.design 个人设计系统，统一 UI 视觉语言 | 太空少年风格、加载与涟漪动效、3D 组件 |
+| [`heang-world`](heang-world/) | 为 宇航.design 增加新 UI 世界与切换过渡 | 世界模板、切换动效规则 |
+| [`haiguitang`](haiguitang/) | 海龟汤式意图澄清，低决策成本收敛真实需求 | 编号判断句、逐轮收窄流程、反幻觉校验 |
+| [`shuorenhua`](shuorenhua/) | 中英文审稿与人味改写 | 事实/术语保留规则、仅标问题模式 |
+| [`atypica-research`](atypica-research/) | 接入 atypica.ai 做消费者与市场研究 | MCP 调用脚本、API 参考、会话流程 |
 
 ### 已核验的 ClawHub 发布项
 

@@ -1,0 +1,47 @@
+/* world: __ID__ — one line on what this world looks like. */
+
+/* 1. tokens — EVERY token below must be set; they recolor and reshape all components */
+[data-dim="__ID__"] {
+  --h-bg: #000; --h-bg-dot: transparent; --h-card: rgba(255, 255, 255, 0.04); --h-ink: #fff;
+  --h-muted: rgba(255, 255, 255, 0.6); --h-line: rgba(255, 255, 255, 0.14); --h-edge: rgba(255, 255, 255, 0.6);
+  --h-shadow: transparent; --h-term: #000; --h-term-fg: #ddd; --h-glow: rgba(255, 255, 255, 0.3);
+  --h-brand: #fff; --h-accent: #fff; --h-on-accent: #000; --h-primary: transparent; --h-on-primary: #fff;
+  --h-font-display: "__Display__", "Noto Sans SC", sans-serif;
+  --h-font-head: "__Display__", "Noto Sans SC", sans-serif;
+  --h-font-sans: "Noto Sans SC", sans-serif;
+  --h-font-mono: "JetBrains Mono", monospace;
+  --h-head-weight: 400;
+  --h-bw: 1px; --h-bw-thin: 1px; --h-radius: 0px; --h-radius-sm: 0px; --h-radius-xs: 0px; --h-r-pill: 0px;
+  --h-sh-xs: none; --h-sh-sm: none; --h-sh: none; --h-sh-lg: none; --h-sh-press: none;
+  --h-3d-edge: #fff;
+  color-scheme: dark;
+}
+
+/* 2. the world layer behind the page (legibility veil, pointer light color) */
+[data-world="__ID__"] { --dim-light: rgba(255, 255, 255, 0.12); }
+[data-world="__ID__"] .dim-world__shade { background: linear-gradient(90deg, rgba(0, 0, 0, 0.85), transparent 70%); }
+
+/* 3. the redraw — scoped so a nested world (the transition's copy of the old page) keeps its own look */
+@scope ([data-dim="__ID__"]) to ([data-dim]) {
+  h1 { }
+  h1 mark { }
+  h1 > i { }
+  h2 { }
+  .kv, .h-badge, .h-prompt { }
+  .h-badge--sun { }
+  .h-btn { }
+  .h-btn--primary { }
+  .h-btn:hover { }
+  .stk { }
+  .h-bar { }       /* sticky: keep it readable over content (translucent + blur) */
+  .h-bar b { }
+  .h-bar svg { }   /* the logo; tint it to belong to this world */
+  .h-nav { }
+  .h-nav[aria-current="page"] { }
+  .kbd { }
+  .h-account { }
+  .h-chip { }
+  .h-sechead { }
+  .h-status { }
+  .h-status > span:first-child { }
+}

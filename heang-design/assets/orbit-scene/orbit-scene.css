@@ -1,0 +1,3 @@
+/* Planet name labels: minor bodies (outer orbit) show their label only on hover/focus. From src/tokens/worlds.css. */
+.orbit-label--minor { opacity: 0; transition: opacity 0.15s; pointer-events: none; }
+.orbit-label--minor[data-show="1"], .orbit-label--minor:focus-visible { opacity: 1; pointer-events: auto; }
