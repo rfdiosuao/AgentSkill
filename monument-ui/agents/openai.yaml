@@ -1,0 +1,4 @@
+interface:
+  display_name: "Monument UI"
+  short_description: "一个主角、极强秩序、大片留白的纪念碑式界面"
+  default_prompt: "用 monument-ui 设计这一屏：先给锚点和一句话艺术指导，再给完整代码，最后给自检数字。"
