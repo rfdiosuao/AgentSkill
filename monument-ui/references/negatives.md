@@ -48,6 +48,10 @@ feeling, no template website feeling
 | 大圆角 + 模糊 + 描边 三件套 | 2019 年作品集 |
 | 同时 >2 种渐变方向 | 视觉噪音 |
 | 无意义的装饰性数字 / 刻度线 | 假装专业 |
+| 每个区块都顶一行 `letter-spacing: .2em` 的小号大写标签 | 最常见的 AI 落地页结构 |
+| 标题里用 `<em>` 斜体衬线强调一个词 | 同上，已经被用烂了 |
+| 常驻 `animation: pulse infinite` 的发光 | 强调色失去"激活态"的含义 |
+| 状态切换只换 `background-color` | 没有材质和光的变化，开关像色块 |
 
 ## C. 判定方法
 

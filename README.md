@@ -100,7 +100,7 @@ openclaw skills install @rfdiosuao/feishu-multi-agent-manager
 | [`anatomy`](anatomy/) | 把抽象系统画成可信的物理装置：等距 SVG 技术图解 | 完整源码、可运行示例、校验脚本、WebGL 材质 |
 | [`heang-design`](heang-design/) | 宇航.design 个人设计系统，统一 UI 视觉语言 | 太空少年风格、加载与涟漪动效、3D 组件 |
 | [`heang-world`](heang-world/) | 为 宇航.design 增加新 UI 世界与切换过渡 | 世界模板、切换动效规则 |
-| [`monument-ui`](monument-ui/) | 让人第一眼停顿的 Hero / 落地页：一个主角 + 强秩序 + 大留白 | 18 个视觉锚点、三盏灯与材质配方、19 条验收表、7 个 eval |
+| [`monument-ui`](monument-ui/) | 让人第一眼停顿的 Hero / 落地页：一个主角 + 强秩序 + 大留白 | 重 / 轻两档定调、18 个场景锚点 + 6 个产品锚点、三盏灯与材质配方、动效与状态表达、19 条验收表、11 个 eval |
 | [`haiguitang`](haiguitang/) | 海龟汤式意图澄清，低决策成本收敛真实需求 | 编号判断句、逐轮收窄流程、反幻觉校验 |
 | [`shuorenhua`](shuorenhua/) | 中英文审稿与人味改写 | 事实/术语保留规则、仅标问题模式 |
 | [`atypica-research`](atypica-research/) | 接入 atypica.ai 做消费者与市场研究 | MCP 调用脚本、API 参考、会话流程 |
